@@ -1,23 +1,27 @@
 # Game Design Lenses
 
-An engine-independent plugin with **20 practical game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008). Created by [Miguel Duran](https://github.com/mduranx64). The repository also offers a portable Agent Skills bundle for OpenCode, Gemini CLI, GitHub Copilot, and Cursor.
+An engine-independent plugin with a **Game Designer agent** and **20 focused game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008). Created by [Miguel Duran](https://github.com/mduranx64). The repository also offers a portable Agent Skills bundle for OpenCode, Gemini CLI, GitHub Copilot, and Cursor.
 
 ## Start here
 
 Use natural requests such as:
 
+- "Use game-designer to develop this cooperative puzzle game idea."
 - "Review my game concept and prioritize the next test."
 - "Turn my idea into a playable core loop."
 - "Check whether this reward economy creates a dominant strategy."
 - "Design a puzzle with clues, a solution, and a hint ladder."
 - "Plan a playtest for this prototype."
 
-After installation, skills can also be selected explicitly. In Codex, use `$game-lens-review`, `$game-mechanics`, or `$game-playtest` (or the plugin-qualified name shown by the skill picker). In Claude Code, use `/game-design-lenses:game-lens-review`, `/game-design-lenses:game-mechanics`, or `/game-design-lenses:game-playtest`.
+The [Game Designer brief](references/game-designer-agent.md) explains how the design partner chooses skills and separates proposals from player evidence. In Codex, invoke `$game-designer` (or its plugin-qualified name shown by the skill picker). In Claude Code, ask for the `game-design-lenses:game-designer` agent or invoke `/game-design-lenses:game-designer`. In OpenCode, select the `game-designer` primary agent; the portable skill works in Cursor, Gemini CLI, and GitHub Copilot with the same starting prompt.
+
+Focused skills can also be selected explicitly. In Codex, use `$game-lens-review`, `$game-mechanics`, or `$game-playtest`. In Claude Code, use `/game-design-lenses:game-lens-review`, `/game-design-lenses:game-mechanics`, or `/game-design-lenses:game-playtest`.
 
 ## Included workflows
 
 | Skill | Purpose |
 | --- | --- |
+| [game-designer](skills/game-designer/SKILL.md) | Coordinate the focused skills as a collaborative design partner |
 | [game-design-brief](skills/game-design-brief/SKILL.md) | Turn a game idea into a testable design brief |
 | [game-player-experience](skills/game-player-experience/SKILL.md) | Match the experience to real player motivations |
 | [game-mechanics](skills/game-mechanics/SKILL.md) | Specify rules, state changes, and meaningful actions |

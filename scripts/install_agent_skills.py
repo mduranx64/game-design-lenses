@@ -37,6 +37,20 @@ def main() -> int:
             else:
                 pending.append((target, contents))
 
+    # OpenCode uses a separate agent-profile directory from portable skills.
+    profile = ROOT / ".opencode" / "agents" / "game-designer.md"
+    profile_target = (
+        project_root / ".config" / "opencode" / "agents" / profile.name
+        if project_root == Path.home().resolve()
+        else project_root / ".opencode" / "agents" / profile.name
+    )
+    profile_contents = profile.read_bytes()
+    if profile_target.exists():
+        if not profile_target.is_file() or profile_target.read_bytes() != profile_contents:
+            conflicts.append(profile_target)
+    else:
+        pending.append((profile_target, profile_contents))
+
     if conflicts:
         print("Existing files differ; no files were copied:", file=sys.stderr)
         for path in conflicts:
@@ -46,7 +60,7 @@ def main() -> int:
     for target, contents in pending:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(contents)
-    print(f"Installed {len(pending)} files in {destination}")
+    print(f"Installed {len(pending)} files in {project_root}")
     return 0
 
 

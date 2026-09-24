@@ -2,6 +2,14 @@
 
 Validated on 2026-09-24.
 
+## Game Designer addition (version 1.3.0)
+
+- The canonical `game-designer` entry skill and shared agent brief match their portable `.agents/` copies; the original 20 focused skills remain available.
+- Claude Code strict validation accepts the updated plugin and marketplace manifests, including the native `agents/game-designer.md` file.
+- OpenCode's debug command finds the `game-designer` primary profile and both the entry skill and `game-design-brief` in an installed project. The installer copied 69 files, copied zero on a second run, and rejected a changed agent profile without partial installation.
+- The concept and clarification prompts were added to [evals/scenarios.md](evals/scenarios.md). Live response checks could not complete: Claude Code reported that it was not logged in, OpenCode could not connect to its model provider, and the local Codex CLI could not initialize its state in this sandbox. Skill selection, questions, and design output are therefore instruction-level expectations, not observed agent behavior.
+- The bundled Codex and skill validators could not run in this environment because their Python dependency `yaml` was unavailable. Independent checks passed for all 21 canonical and portable skill frontmatters, local Markdown links, JSON manifests, matching version and author metadata, and PDF exclusion. The prior validator results below apply to version 1.2.0.
+
 ## Structural and source checks
 
 - The bundled Codex plugin validator accepts the manifest.

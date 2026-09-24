@@ -54,6 +54,8 @@ Use these prompts to check that a skill produces a useful result and respects th
 
 These are additional scenarios for later use; see `../VALIDATION.md` for which checks were actually run.
 
+- **Game Designer concept:** "I want a cooperative puzzle game where two players can each rotate one room. Sessions should be about ten minutes. Make a first design brief and say what we still need to test." The agent should use the entry skill and relevant concept skills, preserve both constraints, define a concrete cooperative decision loop, identify untested assumptions, and propose a small playable experiment without claiming player evidence.
+- **Game Designer clarification:** "Help me design a game." The agent should ask a few high-value questions about player experience, audience or play context, and scope before committing to a detailed design. It should not load all focused skills or invent a platform.
 - **Economy:** Start with 10 coins, earn 8 and pay 3 per successful expedition, buy an upgrade for 30. Trace affordability and inspect whether the post-purchase state can continue. Expected deterministic milestone: four expeditions under these assumptions.
 - **Narrative:** A player bypasses an NPC and later reaches a reunion. Write state-sensitive responses that do not falsely acknowledge an uncompleted quest.
 - **Social design:** Shared rewards are claimed by the first player to touch a chest. Diagnose incentives and propose alternatives that still preserve the requested competitive or cooperative experience.

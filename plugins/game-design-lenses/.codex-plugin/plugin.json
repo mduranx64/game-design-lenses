@@ -1,7 +1,7 @@
 {
   "name": "game-design-lenses",
-  "version": "1.2.0",
-  "description": "20 engine-independent game-design skills adapted from Jesse Schell’s 2008 The Art of Game Design, with an index of all 100 lenses.",
+  "version": "1.3.0",
+  "description": "A Game Designer partner and 20 engine-independent design skills adapted from Jesse Schell’s 2008 The Art of Game Design, with an index of all 100 lenses.",
   "author": {
     "name": "Miguel Duran",
     "url": "https://github.com/mduranx64"
@@ -16,14 +16,15 @@
   ],
   "interface": {
     "displayName": "Game Design Lenses",
-    "shortDescription": "Practical game design, from idea to playtest.",
-    "longDescription": "Design and review games with 20 focused workflows for concepts, mechanics, balance, economies, puzzles, controls, pacing, stories, worlds, levels, art, social play, prototypes, playtests, documentation, technology, pitches, and player impact. Includes original worked examples and edition-specific chapter and lens references. Independent adaptation; not affiliated with the book’s author or publisher.",
+    "shortDescription": "A game design partner, from idea to playtest.",
+    "longDescription": "Collaborate with a Game Designer agent that selects from 20 focused workflows for concepts, mechanics, balance, economies, puzzles, controls, pacing, stories, worlds, levels, art, social play, prototypes, playtests, documentation, technology, pitches, and player impact. Includes original worked examples and edition-specific chapter and lens references. Independent adaptation; not affiliated with the book’s author or publisher.",
     "developerName": "Miguel Duran",
     "category": "Productivity",
     "capabilities": [
       "Write"
     ],
     "defaultPrompt": [
+      "Use game-designer to develop this cooperative puzzle game idea.",
       "Review my game concept and prioritize the next test.",
       "Design a playable core loop from my idea.",
       "Plan a playtest for my prototype."

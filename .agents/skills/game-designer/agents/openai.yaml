@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Designer"
+  short_description: "Design a game with a practical, testable next step"
+  default_prompt: "Use $game-designer to develop this cooperative puzzle game idea."

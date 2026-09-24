@@ -4,6 +4,7 @@ Select the workflow that matches the deliverable. Use the lens review for a broa
 
 | Task | Skill | Example request |
 | --- | --- | --- |
+| Collaborate on a game idea or design problem and choose the next workflow | [game-designer](../skills/game-designer/SKILL.md) | Use $game-designer to develop this cooperative puzzle game idea. |
 | Turn a game idea into a testable design brief | [game-design-brief](../skills/game-design-brief/SKILL.md) | Use $game-design-brief to turn my game idea into an experience, core loop, and first playable experiment. |
 | Match the experience to real player motivations | [game-player-experience](../skills/game-player-experience/SKILL.md) | Use $game-player-experience to identify my audience assumptions and connect motivations to concrete play. |
 | Specify rules, state changes, and meaningful actions | [game-mechanics](../skills/game-mechanics/SKILL.md) | Use $game-mechanics to specify my core mechanic with states, actions, rules, and a worked turn. |

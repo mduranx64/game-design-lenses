@@ -1,7 +1,7 @@
 {
   "name": "game-design-lenses",
-  "version": "1.2.0",
-  "description": "20 engine-independent game-design skills adapted from Jesse Schell's 2008 The Art of Game Design.",
+  "version": "1.3.0",
+  "description": "A Game Designer entry skill and 20 engine-independent design skills adapted from Jesse Schell's 2008 The Art of Game Design.",
   "author": {
     "name": "Miguel Duran"
   },
