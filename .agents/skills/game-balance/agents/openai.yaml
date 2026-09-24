@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Balance"
+  short_description: "Diagnose unfairness and dominant strategies"
+  default_prompt: "Use $game-balance to check these rules for dominant strategies and propose a measurable tuning experiment."

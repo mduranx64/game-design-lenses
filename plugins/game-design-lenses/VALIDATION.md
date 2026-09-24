@@ -6,6 +6,9 @@ Validated on 2026-09-24.
 
 - The bundled Codex plugin validator accepts the manifest.
 - Claude Code 2.1.278 accepts the plugin and marketplace manifests in strict mode. The same 20 skill folders are shared by Codex and Claude Code.
+- OpenCode 1.18.31 discovered all 20 skills from the portable `.agents/skills/` bundle in a project checkout.
+- The portable skill and reference files match the canonical plugin files. A separate project installation copied 65 files, was idempotent on a second run, and refused a conflicting local edit without overwriting it.
+- The Cursor plugin and marketplace manifests were checked for JSON syntax, matching names, relative source path, and skill directory layout. A live Cursor import remains untested.
 - The bundled skill validator accepts all 20 skill entrypoints.
 - Each skill has UI metadata, an explicit invocation example, a worked example, and relevant source references.
 - The lens index contains exactly 100 unique entries, numbered 1-100. Each lens number and printed page was checked against the extracted text at the specified PDF page of the supplied book.
@@ -45,4 +48,4 @@ Six of the twenty workflows received independent behavioral exercises. All twent
 
 Source verification established edition-specific locations for all indexed lenses. The workflows are newly written adaptations and operational additions, not verbatim author procedures. Source notes document the absent printed page 68 and the boundary between source concepts and modern adaptations. The repository README gives installation instructions; validation alone does not prove a public installation works.
 
-Claude Code validation checks manifest syntax and structure. Installing from a public GitHub repository and invoking a skill in a live Claude Code session remain separate integration checks.
+Claude Code validation checks manifest syntax and structure. Installing from a public GitHub repository and invoking a skill in a live Claude Code session remain separate integration checks. Gemini CLI, GitHub Copilot, and Cursor compatibility follows their documented Agent Skills paths; live discovery in those applications remains untested.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Player Impact and Design Purpose"
+  short_description: "Connect design purpose to effects on players"
+  default_prompt: "Use $game-design-impact to examine whether these mechanics support my stated purpose and intended player effects."

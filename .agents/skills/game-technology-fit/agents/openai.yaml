@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technology Fit"
+  short_description: "Match technology choices to the intended experience"
+  default_prompt: "Use $game-technology-fit to separate essential capabilities from enhancements and define a feasibility spike."

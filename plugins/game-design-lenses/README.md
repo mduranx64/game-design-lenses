@@ -1,6 +1,6 @@
 # Game Design Lenses
 
-An engine-independent Codex and Claude Code plugin with **20 practical game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008). Created by [Miguel Duran](https://github.com/mduranx64).
+An engine-independent plugin with **20 practical game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008). Created by [Miguel Duran](https://github.com/mduranx64). The repository also offers a portable Agent Skills bundle for OpenCode, Gemini CLI, GitHub Copilot, and Cursor.
 
 ## Start here
 
@@ -53,4 +53,4 @@ See [VALIDATION.md](VALIDATION.md) for the checks actually completed and their l
 
 ## Installation
 
-This folder contains the Codex manifest (`.codex-plugin/plugin.json`), the Claude Code manifest (`.claude-plugin/plugin.json`), and shared `skills/`. From the repository root, add the GitHub marketplace and install with either platform's commands in the [repository guide](../../README.md). Start a new task or session so the skills are discovered.
+This folder contains Codex, Claude Code, and Cursor manifests alongside the canonical `skills/`. From the repository root, follow the [repository guide](../../README.md) for installation in each agent. Start a new task or session so the skills are discovered.

@@ -1,0 +1,16 @@
+{
+  "name": "mduranx64-game-design",
+  "owner": {
+    "name": "Miguel Duran"
+  },
+  "metadata": {
+    "description": "Engine-independent game-design skills for Cursor"
+  },
+  "plugins": [
+    {
+      "name": "game-design-lenses",
+      "source": "plugins/game-design-lenses",
+      "description": "20 practical game-design skills from idea to playtest"
+    }
+  ]
+}

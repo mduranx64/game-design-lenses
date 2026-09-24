@@ -1,0 +1,4 @@
+interface:
+  display_name: "Worlds and Characters"
+  short_description: "Build playable worlds and purposeful characters"
+  default_prompt: "Use $game-world-characters to connect my world rules, character roles, relationships, and playable interactions."

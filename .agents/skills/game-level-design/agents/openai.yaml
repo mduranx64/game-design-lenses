@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level and Spatial Design"
+  short_description: "Shape routes, encounters, and readable spaces"
+  default_prompt: "Use $game-level-design to create a functional layout with routes, encounter purposes, cues, and a walkthrough."

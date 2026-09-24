@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pacing and Interest Curves"
+  short_description: "Shape anticipation, contrast, and satisfying payoffs"
+  default_prompt: "Use $game-pacing to map the beats of this level and identify weak anticipation, repetition, or missing payoffs."

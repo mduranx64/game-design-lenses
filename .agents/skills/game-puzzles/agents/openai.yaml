@@ -1,0 +1,4 @@
+interface:
+  display_name: "Puzzle Design"
+  short_description: "Build solvable puzzles with clear clues and progress"
+  default_prompt: "Use $game-puzzles to create a puzzle with a verified solution, clue dependencies, and a graduated hint ladder."

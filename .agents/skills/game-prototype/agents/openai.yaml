@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype and Iterate"
+  short_description: "Test the riskiest design assumption with a small prototype"
+  default_prompt: "Use $game-prototype to identify the biggest risk and design the smallest experiment that can resolve it."

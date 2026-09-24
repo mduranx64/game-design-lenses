@@ -1,6 +1,6 @@
-# Game Design Lenses for Codex and Claude Code
+# Game Design Lenses for coding agents
 
-An independent, open source plugin for Codex and Claude Code with 20 engine-independent skills for designing and reviewing digital, tabletop, and physical games. The workflows draw on game-design concepts discussed in Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008), and add original procedures, examples, and evaluation scenarios.
+An independent, open source set of 20 engine-independent skills for designing and reviewing digital, tabletop, and physical games. The workflows draw on game-design concepts discussed in Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008), and add original procedures, examples, and evaluation scenarios.
 
 Created by [Miguel Duran](https://github.com/mduranx64).
 
@@ -25,6 +25,27 @@ claude plugin install game-design-lenses@mduranx64-game-design
 ```
 
 To test the local plugin without installing it, run `claude --plugin-dir ./plugins/game-design-lenses` from this repository. Try `/game-design-lenses:game-design-brief` in Claude Code. The Claude Code marketplace catalog is [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Both platforms use the same [`skills/` directory](plugins/game-design-lenses/skills/) inside the plugin.
+
+## Use in other agents
+
+| Agent | How the repository supports it |
+| --- | --- |
+| OpenCode | Discovers the portable `.agents/skills/` files in a project or user directory. |
+| Gemini CLI | Discovers the same `.agents/skills/` files as workspace or user skills. |
+| GitHub Copilot | Discovers the same `.agents/skills/` files for supported Copilot agents. |
+| Cursor | Discovers `.agents/skills/` in a project and can import the native Cursor plugin catalog in [`.cursor-plugin/marketplace.json`](.cursor-plugin/marketplace.json). |
+
+When this repository itself is the project, those agents can discover [`.agents/skills/`](.agents/skills/) directly. To add the skills to another game project, run:
+
+```sh
+python3 scripts/install_agent_skills.py /path/to/your-game-project
+```
+
+This copies the 20 skill folders and their shared references into that project's `.agents/` directory. The installer refuses to overwrite files that differ. To make the skills available across local projects for agents that support user-level `.agents/skills/`, pass your home directory instead of a project path. Do not install both the portable copy and a platform plugin in the same project unless you want duplicate skill entries.
+
+For Cursor plugin installation from GitHub, use **Customize → From GitHub Repository** after publication and select this repository. The plugin uses the same canonical skills in [`plugins/game-design-lenses/`](plugins/game-design-lenses/).
+
+The source skills live in [`plugins/game-design-lenses/skills/`](plugins/game-design-lenses/skills/). Maintainers run `python3 scripts/sync_agent_skills.py --write` after editing source skills or references, then `python3 scripts/sync_agent_skills.py` to check the portable copy.
 
 ## What is included
 

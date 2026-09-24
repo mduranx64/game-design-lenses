@@ -1,0 +1,4 @@
+interface:
+  display_name: "Player Experience"
+  short_description: "Match the experience to real player motivations"
+  default_prompt: "Use $game-player-experience to identify my audience assumptions and connect motivations to concrete play."
