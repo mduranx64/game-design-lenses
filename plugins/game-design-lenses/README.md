@@ -1,6 +1,6 @@
 # Game Design Lenses
 
-An engine-independent Codex plugin with **20 practical game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008).
+An engine-independent Codex and Claude Code plugin with **20 practical game-design skills**, adapted from Jesse Schell's *The Art of Game Design: A Book of Lenses* (2008). Created by [Miguel Duran](https://github.com/mduranx64).
 
 ## Start here
 
@@ -12,7 +12,7 @@ Use natural requests such as:
 - "Design a puzzle with clues, a solution, and a hint ladder."
 - "Plan a playtest for this prototype."
 
-After installation, skills can also be selected explicitly, for example `$game-lens-review`, `$game-mechanics`, or `$game-playtest`. Use the skill picker if the app shows a plugin-qualified name.
+After installation, skills can also be selected explicitly. In Codex, use `$game-lens-review`, `$game-mechanics`, or `$game-playtest` (or the plugin-qualified name shown by the skill picker). In Claude Code, use `/game-design-lenses:game-lens-review`, `/game-design-lenses:game-mechanics`, or `/game-design-lenses:game-playtest`.
 
 ## Included workflows
 
@@ -53,4 +53,4 @@ See [VALIDATION.md](VALIDATION.md) for the checks actually completed and their l
 
 ## Installation
 
-This folder contains `.codex-plugin/plugin.json` and `skills/`. From the repository root, add the GitHub marketplace with `codex plugin marketplace add mduranx64/game-design-lenses`, then install with `codex plugin add game-design-lenses@mduranx64-game-design`. Start a new Codex task so the skills are discovered.
+This folder contains the Codex manifest (`.codex-plugin/plugin.json`), the Claude Code manifest (`.claude-plugin/plugin.json`), and shared `skills/`. From the repository root, add the GitHub marketplace and install with either platform's commands in the [repository guide](../../README.md). Start a new task or session so the skills are discovered.

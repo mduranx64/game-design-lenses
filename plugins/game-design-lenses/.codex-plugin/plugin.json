@@ -1,9 +1,10 @@
 {
   "name": "game-design-lenses",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "20 engine-independent game-design skills adapted from Jesse Schell’s 2008 The Art of Game Design, with an index of all 100 lenses.",
   "author": {
-    "name": "Miguel"
+    "name": "Miguel Duran",
+    "url": "https://github.com/mduranx64"
   },
   "skills": "./skills/",
   "keywords": [
@@ -17,7 +18,7 @@
     "displayName": "Game Design Lenses",
     "shortDescription": "Practical game design, from idea to playtest.",
     "longDescription": "Design and review games with 20 focused workflows for concepts, mechanics, balance, economies, puzzles, controls, pacing, stories, worlds, levels, art, social play, prototypes, playtests, documentation, technology, pitches, and player impact. Includes original worked examples and edition-specific chapter and lens references. Independent adaptation; not affiliated with the book’s author or publisher.",
-    "developerName": "Miguel",
+    "developerName": "Miguel Duran",
     "category": "Productivity",
     "capabilities": [
       "Write"
