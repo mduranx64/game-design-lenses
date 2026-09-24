@@ -1,0 +1,702 @@
+[
+  {
+    "number": 1,
+    "name": "Essential Experience",
+    "printed_page": 21,
+    "pdf_page": 51,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 2,
+    "name": "Surprise",
+    "printed_page": 26,
+    "pdf_page": 56,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 3,
+    "name": "Fun",
+    "printed_page": 27,
+    "pdf_page": 57,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 4,
+    "name": "Curiosity",
+    "printed_page": 30,
+    "pdf_page": 60,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 5,
+    "name": "Endogenous Value",
+    "printed_page": 32,
+    "pdf_page": 62,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 6,
+    "name": "Problem Solving",
+    "printed_page": 37,
+    "pdf_page": 67,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 7,
+    "name": "Elemental Tetrad",
+    "printed_page": 43,
+    "pdf_page": 73,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 8,
+    "name": "Holographic Design",
+    "printed_page": 46,
+    "pdf_page": 76,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 9,
+    "name": "Unification",
+    "printed_page": 53,
+    "pdf_page": 83,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 10,
+    "name": "Resonance",
+    "printed_page": 56,
+    "pdf_page": 86,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 11,
+    "name": "Infinite Inspiration",
+    "printed_page": 59,
+    "pdf_page": 89,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 12,
+    "name": "Problem Statement",
+    "printed_page": 62,
+    "pdf_page": 92,
+    "primary_skill": "game-design-brief"
+  },
+  {
+    "number": 13,
+    "name": "Eight Filters",
+    "printed_page": 78,
+    "pdf_page": 107,
+    "primary_skill": "game-prototype"
+  },
+  {
+    "number": 14,
+    "name": "Risk Mitigation",
+    "printed_page": 86,
+    "pdf_page": 115,
+    "primary_skill": "game-prototype"
+  },
+  {
+    "number": 15,
+    "name": "Toy",
+    "printed_page": 90,
+    "pdf_page": 119,
+    "primary_skill": "game-prototype"
+  },
+  {
+    "number": 16,
+    "name": "Player",
+    "printed_page": 106,
+    "pdf_page": 135,
+    "primary_skill": "game-player-experience"
+  },
+  {
+    "number": 17,
+    "name": "Pleasure",
+    "printed_page": 112,
+    "pdf_page": 141,
+    "primary_skill": "game-player-experience"
+  },
+  {
+    "number": 18,
+    "name": "Flow",
+    "printed_page": 122,
+    "pdf_page": 151,
+    "primary_skill": "game-player-experience"
+  },
+  {
+    "number": 19,
+    "name": "Needs",
+    "printed_page": 127,
+    "pdf_page": 156,
+    "primary_skill": "game-player-experience"
+  },
+  {
+    "number": 20,
+    "name": "Judgment",
+    "printed_page": 128,
+    "pdf_page": 157,
+    "primary_skill": "game-player-experience"
+  },
+  {
+    "number": 21,
+    "name": "Functional Space",
+    "printed_page": 135,
+    "pdf_page": 164,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 22,
+    "name": "Dynamic State",
+    "printed_page": 140,
+    "pdf_page": 169,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 23,
+    "name": "Emergence",
+    "printed_page": 143,
+    "pdf_page": 172,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 24,
+    "name": "Action",
+    "printed_page": 144,
+    "pdf_page": 173,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 25,
+    "name": "Goals",
+    "printed_page": 149,
+    "pdf_page": 178,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 26,
+    "name": "Rules",
+    "printed_page": 150,
+    "pdf_page": 179,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 27,
+    "name": "Skill",
+    "printed_page": 153,
+    "pdf_page": 182,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 28,
+    "name": "Expected Value",
+    "printed_page": 167,
+    "pdf_page": 196,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 29,
+    "name": "Chance",
+    "printed_page": 169,
+    "pdf_page": 198,
+    "primary_skill": "game-mechanics"
+  },
+  {
+    "number": 30,
+    "name": "Fairness",
+    "printed_page": 176,
+    "pdf_page": 205,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 31,
+    "name": "Challenge",
+    "printed_page": 179,
+    "pdf_page": 208,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 32,
+    "name": "Meaningful Choices",
+    "printed_page": 181,
+    "pdf_page": 210,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 33,
+    "name": "Triangularity",
+    "printed_page": 182,
+    "pdf_page": 211,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 34,
+    "name": "Skill vs. Chance",
+    "printed_page": 184,
+    "pdf_page": 213,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 35,
+    "name": "Head and Hands",
+    "printed_page": 185,
+    "pdf_page": 214,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 36,
+    "name": "Competition",
+    "printed_page": 186,
+    "pdf_page": 215,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 37,
+    "name": "Cooperation",
+    "printed_page": 187,
+    "pdf_page": 216,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 38,
+    "name": "Competition vs. Cooperation",
+    "printed_page": 187,
+    "pdf_page": 216,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 39,
+    "name": "Time",
+    "printed_page": 189,
+    "pdf_page": 218,
+    "primary_skill": "game-pacing"
+  },
+  {
+    "number": 40,
+    "name": "Reward",
+    "printed_page": 191,
+    "pdf_page": 220,
+    "primary_skill": "game-economy"
+  },
+  {
+    "number": 41,
+    "name": "Punishment",
+    "printed_page": 194,
+    "pdf_page": 223,
+    "primary_skill": "game-economy"
+  },
+  {
+    "number": 42,
+    "name": "Simplicity/Complexity",
+    "printed_page": 196,
+    "pdf_page": 225,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 43,
+    "name": "Elegance",
+    "printed_page": 198,
+    "pdf_page": 227,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 44,
+    "name": "Character",
+    "printed_page": 199,
+    "pdf_page": 228,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 45,
+    "name": "Imagination",
+    "printed_page": 201,
+    "pdf_page": 230,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 46,
+    "name": "Economy",
+    "printed_page": 204,
+    "pdf_page": 233,
+    "primary_skill": "game-economy"
+  },
+  {
+    "number": 47,
+    "name": "Balance",
+    "printed_page": 205,
+    "pdf_page": 234,
+    "primary_skill": "game-balance"
+  },
+  {
+    "number": 48,
+    "name": "Accessibility",
+    "printed_page": 213,
+    "pdf_page": 242,
+    "primary_skill": "game-puzzles"
+  },
+  {
+    "number": 49,
+    "name": "Visible Progress",
+    "printed_page": 214,
+    "pdf_page": 243,
+    "primary_skill": "game-puzzles"
+  },
+  {
+    "number": 50,
+    "name": "Parallelism",
+    "printed_page": 216,
+    "pdf_page": 245,
+    "primary_skill": "game-puzzles"
+  },
+  {
+    "number": 51,
+    "name": "Pyramid",
+    "printed_page": 217,
+    "pdf_page": 246,
+    "primary_skill": "game-puzzles"
+  },
+  {
+    "number": 52,
+    "name": "Puzzle",
+    "printed_page": 219,
+    "pdf_page": 248,
+    "primary_skill": "game-puzzles"
+  },
+  {
+    "number": 53,
+    "name": "Control",
+    "printed_page": 222,
+    "pdf_page": 251,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 54,
+    "name": "Physical Interface",
+    "printed_page": 226,
+    "pdf_page": 255,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 55,
+    "name": "Virtual Interface",
+    "printed_page": 226,
+    "pdf_page": 255,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 56,
+    "name": "Transparency",
+    "printed_page": 227,
+    "pdf_page": 256,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 57,
+    "name": "Feedback",
+    "printed_page": 230,
+    "pdf_page": 259,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 58,
+    "name": "Juiciness",
+    "printed_page": 233,
+    "pdf_page": 262,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 59,
+    "name": "Channels and Dimensions",
+    "printed_page": 238,
+    "pdf_page": 267,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 60,
+    "name": "Modes",
+    "printed_page": 240,
+    "pdf_page": 269,
+    "primary_skill": "game-controls-feedback"
+  },
+  {
+    "number": 61,
+    "name": "Interest Curve",
+    "printed_page": 252,
+    "pdf_page": 281,
+    "primary_skill": "game-pacing"
+  },
+  {
+    "number": 62,
+    "name": "Inherent Interest",
+    "printed_page": 254,
+    "pdf_page": 283,
+    "primary_skill": "game-pacing"
+  },
+  {
+    "number": 63,
+    "name": "Beauty",
+    "printed_page": 255,
+    "pdf_page": 284,
+    "primary_skill": "game-art-direction"
+  },
+  {
+    "number": 64,
+    "name": "Projection",
+    "printed_page": 257,
+    "pdf_page": 286,
+    "primary_skill": "game-pacing"
+  },
+  {
+    "number": 65,
+    "name": "Story Machine",
+    "printed_page": 266,
+    "pdf_page": 295,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 66,
+    "name": "Obstacle",
+    "printed_page": 271,
+    "pdf_page": 300,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 67,
+    "name": "Simplicity and Transcendence",
+    "printed_page": 272,
+    "pdf_page": 301,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 68,
+    "name": "Hero’s Journey",
+    "printed_page": 275,
+    "pdf_page": 304,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 69,
+    "name": "Weirdest Thing",
+    "printed_page": 279,
+    "pdf_page": 308,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 70,
+    "name": "Story",
+    "printed_page": 280,
+    "pdf_page": 309,
+    "primary_skill": "game-narrative"
+  },
+  {
+    "number": 71,
+    "name": "Freedom",
+    "printed_page": 284,
+    "pdf_page": 313,
+    "primary_skill": "game-level-design"
+  },
+  {
+    "number": 72,
+    "name": "Indirect Control",
+    "printed_page": 293,
+    "pdf_page": 322,
+    "primary_skill": "game-level-design"
+  },
+  {
+    "number": 73,
+    "name": "Collusion",
+    "printed_page": 298,
+    "pdf_page": 327,
+    "primary_skill": "game-level-design"
+  },
+  {
+    "number": 74,
+    "name": "World",
+    "printed_page": 307,
+    "pdf_page": 336,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 75,
+    "name": "Avatar",
+    "printed_page": 314,
+    "pdf_page": 343,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 76,
+    "name": "Character Function",
+    "printed_page": 316,
+    "pdf_page": 345,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 77,
+    "name": "Character Traits",
+    "printed_page": 317,
+    "pdf_page": 346,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 78,
+    "name": "Interpersonal Circumplex",
+    "printed_page": 319,
+    "pdf_page": 348,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 79,
+    "name": "Character Web",
+    "printed_page": 321,
+    "pdf_page": 350,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 80,
+    "name": "Status",
+    "printed_page": 323,
+    "pdf_page": 352,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 81,
+    "name": "Character Transformation",
+    "printed_page": 327,
+    "pdf_page": 356,
+    "primary_skill": "game-world-characters"
+  },
+  {
+    "number": 82,
+    "name": "Inner Contradiction",
+    "printed_page": 335,
+    "pdf_page": 364,
+    "primary_skill": "game-level-design"
+  },
+  {
+    "number": 83,
+    "name": "Nameless Quality",
+    "printed_page": 337,
+    "pdf_page": 366,
+    "primary_skill": "game-level-design"
+  },
+  {
+    "number": 84,
+    "name": "Friendship",
+    "printed_page": 361,
+    "pdf_page": 390,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 85,
+    "name": "Expression",
+    "printed_page": 363,
+    "pdf_page": 392,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 86,
+    "name": "Community",
+    "printed_page": 367,
+    "pdf_page": 396,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 87,
+    "name": "Griefing",
+    "printed_page": 370,
+    "pdf_page": 399,
+    "primary_skill": "game-social-design"
+  },
+  {
+    "number": 88,
+    "name": "Love",
+    "printed_page": 375,
+    "pdf_page": 404,
+    "primary_skill": "game-design-document"
+  },
+  {
+    "number": 89,
+    "name": "Team",
+    "printed_page": 380,
+    "pdf_page": 409,
+    "primary_skill": "game-design-document"
+  },
+  {
+    "number": 90,
+    "name": "Documentation",
+    "printed_page": 387,
+    "pdf_page": 416,
+    "primary_skill": "game-design-document"
+  },
+  {
+    "number": 91,
+    "name": "Playtesting",
+    "printed_page": 401,
+    "pdf_page": 430,
+    "primary_skill": "game-playtest"
+  },
+  {
+    "number": 92,
+    "name": "Technology",
+    "printed_page": 412,
+    "pdf_page": 441,
+    "primary_skill": "game-technology-fit"
+  },
+  {
+    "number": 93,
+    "name": "Crystal Ball",
+    "printed_page": 413,
+    "pdf_page": 442,
+    "primary_skill": "game-technology-fit"
+  },
+  {
+    "number": 94,
+    "name": "Client",
+    "printed_page": 420,
+    "pdf_page": 449,
+    "primary_skill": "game-pitch"
+  },
+  {
+    "number": 95,
+    "name": "Pitch",
+    "printed_page": 432,
+    "pdf_page": 461,
+    "primary_skill": "game-pitch"
+  },
+  {
+    "number": 96,
+    "name": "Profit",
+    "printed_page": 439,
+    "pdf_page": 468,
+    "primary_skill": "game-pitch"
+  },
+  {
+    "number": 97,
+    "name": "Transformation",
+    "printed_page": 452,
+    "pdf_page": 481,
+    "primary_skill": "game-design-impact"
+  },
+  {
+    "number": 98,
+    "name": "Responsibility",
+    "printed_page": 457,
+    "pdf_page": 486,
+    "primary_skill": "game-design-impact"
+  },
+  {
+    "number": 99,
+    "name": "Raven",
+    "printed_page": 460,
+    "pdf_page": 489,
+    "primary_skill": "game-design-impact"
+  },
+  {
+    "number": 100,
+    "name": "Your Secret Purpose",
+    "printed_page": 461,
+    "pdf_page": 490,
+    "primary_skill": "game-design-impact"
+  }
+]

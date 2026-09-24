@@ -1,0 +1,4 @@
+interface:
+  display_name: "Controls and Feedback"
+  short_description: "Make controls and game state understandable"
+  default_prompt: "Use $game-controls-feedback to trace this interaction and propose clearer inputs, state cues, and feedback."

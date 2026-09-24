@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Documents and Team Decisions"
+  short_description: "Write the design information a team actually needs"
+  default_prompt: "Use $game-design-document to turn these notes into a concise specification with decisions and open questions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multiplayer and Community"
+  short_description: "Design cooperation, competition, and healthy communities"
+  default_prompt: "Use $game-social-design to review my multiplayer roles, incentives, dropout behavior, and community experience."

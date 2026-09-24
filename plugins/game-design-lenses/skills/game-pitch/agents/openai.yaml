@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Pitch and Business Assumptions"
+  short_description: "Pitch the experience with credible scope and evidence"
+  default_prompt: "Use $game-pitch to build a clear pitch with a concrete ask, honest evidence, and explicit commercial assumptions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Design Lens Review"
+  short_description: "Find the most consequential game design problems"
+  default_prompt: "Use $game-lens-review to critique this game design and prioritize the next experiment."

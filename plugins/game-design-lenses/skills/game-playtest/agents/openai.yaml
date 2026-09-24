@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playtest Planning and Analysis"
+  short_description: "Turn real play observations into design decisions"
+  default_prompt: "Use $game-playtest to plan a focused playtest, or analyze these observations without inventing results."

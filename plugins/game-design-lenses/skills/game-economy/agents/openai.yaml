@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Economy and Progression"
+  short_description: "Connect resources and rewards to player decisions"
+  default_prompt: "Use $game-economy to map my resources, estimate upgrade timing, and find grind or recovery problems."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Art and Audio Direction"
+  short_description: "Connect visual and audio choices to the experience"
+  default_prompt: "Use $game-art-direction to create visual and audio principles that support this game’s mechanics and mood."

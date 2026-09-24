@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interactive Narrative"
+  short_description: "Connect story consequences to player actions"
+  default_prompt: "Use $game-narrative to turn this premise into player goals, meaningful choices, and consistent consequences."

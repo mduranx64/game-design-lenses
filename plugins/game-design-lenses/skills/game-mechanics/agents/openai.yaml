@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Mechanics"
+  short_description: "Specify rules, state changes, and meaningful actions"
+  default_prompt: "Use $game-mechanics to specify my core mechanic with states, actions, rules, and a worked turn."

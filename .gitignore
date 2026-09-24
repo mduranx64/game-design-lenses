@@ -1,0 +1,8 @@
+.DS_Store
+*.pdf
+*.zip
+*.log
+.env
+.env.*
+__pycache__/
+*.pyc

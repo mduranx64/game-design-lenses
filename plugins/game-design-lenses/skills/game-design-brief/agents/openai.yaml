@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Design Brief"
+  short_description: "Turn a game idea into a testable design brief"
+  default_prompt: "Use $game-design-brief to turn my game idea into an experience, core loop, and first playable experiment."
